@@ -153,13 +153,15 @@
                             <a href="mailto:tony@promotionplusinc.com">Tony@PromotionPlusInc.com</a><br>
                             <a href='tel:18189935406' class='contactNumber'>Ext. 220</a><br>
                     </div>
+                    <!--
                     <div class='staffCard'>
                         <h2 class='staffName'>Wendy Mastrangelo</h2>
                         <span class='staffTitle'>Vice President, Acting CFO and Operation Manager</span><br>
                         <a href="mailto:wendy@promotionplusinc.com">Wendy@PromotionPlusInc.com</a><br>
                         <a href='tel:18189935406' class='contactNumber'>Ext. 219</a>
-                    </div>
+                    </div>-->
                 </div>
+                <!--
             <div class='departmentTitle'>
                 <h3 class="title">Staff:<br>
                 <img src="assets/img/rule2.jpg" width="526" height="2"></h3>
@@ -201,6 +203,7 @@
                     <p><img src="assets/img/rule2.jpg" width="526" height="2"> </p>
                     <p><em>Design:</em></p>
                 </div>
+                <div class='departmentContacts'>
                 <div class='staffCard'>
                     <span style="color: #000">Luis Moreno</span><br>
                     <span class='staffTitle'>Senior Design Engineer</span><br>
@@ -212,6 +215,7 @@
                     <span class='staffTitle'>Graphic Designer</span><br>
                     <a href="mailto:ky@promotionplusinc.com">Ky@PromotionPlusInc.com</a><br>
                     <span class='contactNumber'>Ext. 212</span>
+                </div>
                 </div>
                 <div class='departmentTitle'>
                     <p><img src="assets/img/rule2.jpg" width="526" height="2"> </p>
@@ -259,29 +263,32 @@
                     <p><img src="assets/img/rule2.jpg" width="526" height="2"> </p>
                     <p><em>Accounting:</em></p>
                 </div>
-                <p><span style="color: #000">Heidi Alonso</span>
-                    <br> Accounting Manager
-                    <br>
-                    <a href="mailto:heidi@promotionplusinc.com">Heidi@PromotionPlusInc.com</a>
-                    <br>
-                    <span class='contactNumber'>Ext. 204</span></p>
-                <p><img src="assets/img/rule2.jpg" width="526" height="2"> </p>
-                <p><span style="color: #000">Sorin Enache</span>
-                    <br> Permit Acquisition Manager
-                    <br>
-                    <a href="mailto:sorin@promotionplusinc.com">Sorin@PromotionPlusInc.com</a>
-                    <br>
-                    <span class='contactNumber'>Ext. 208</span>
-                    <br>
-                </p>
+                <div class='departmentContacts'>
+                    <div class='staffCard'>
+                        <span style="color: #000">Heidi Alonso</span><br>
+                        <span class='staffTitle'>Accounting Manager</span><br>
+                        <a href="mailto:heidi@promotionplusinc.com">Heidi@PromotionPlusInc.com</a><br>
+                        <span class='contactNumber'>Ext. 204</span></p>
+                    </div>
+                </div>
+                <div class='departmentTitle'>
+                    <p><img src="assets/img/rule2.jpg" width="526" height="2"> </p>
+                    <p><em>Permits:</em></p>
+                </div>
+                <div class='departmentContacts'>
+                    <div class='staffCard'>
+                        <span style="color: #000">Sorin Enache</span><br>
+                        <span class='staffTitle'>Permit Acquisition Manager</span><br>
+                        <a href="mailto:sorin@promotionplusinc.com">Sorin@PromotionPlusInc.com</a><br>
+                        <span class='contactNumber'>Ext. 208</span>
+                    </div>
+                </div>
             </div>
             <div class="col-md-12">
-                <!-- Just delete "bg-light" class to hide background color -->
-                </p>
+                </p> -->
             </div>
         </div>
         <!--/row-->
-        <p><span><br></span></p>
         <center>
             <a href="index.html" class="btn btn-lg btn-danger"></i>Home page</a>
         </center>
@@ -312,7 +319,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-6 col-sm-6 col-xs-12">
-                    <p>2015 &copy; <a href="#" style="font-family: 'Times New Roman', Times, serif; font-style: italic; font-size: 14px;">Promotion Plus Sign Co., Inc.</a>. ALL Rights Reserved.</p>
+                    <p>2015 &copy; <a href="#" class='companyTitle' style="font-style: italic; font-size: 14px;">Promotion Plus Sign Co., Inc.</a>. ALL Rights Reserved.</p>
                 </div>
             </div>
             <!--/row-->
@@ -337,47 +344,32 @@
     <script type="text/javascript" src="assets/js/app.js"></script>
     <script type="text/javascript" src="assets/js/pages/index.js"></script>
     <script type="text/javascript">
+    
     jQuery(document).ready(function() {
-
         App.init();
-
         App.initSliders();
-
         Index.initParallaxSlider();
-
         App.initBxSlider1();
 
         // make main menu sticky
 
         var ieversion = 0;
-
         if (/MSIE (\d+\.\d+);/.test(navigator.userAgent)) { //test for MSIE x.x;
-
             ieversion = new Number(RegExp.$1); // capture x.x portion and store as a number
-
         }
 
         if ((!/Android|webOS|iPhone|iPad|iPod|BlackBerry/i.test(navigator.userAgent)) && ((ieversion >= 10) || (ieversion == 0))) {
-
             $(".header").sticky({
                 topSpacing: 0
             });
-
         } else {}
-
         $('.flexslider').flexslider({
-
             animation: "slide"
-
         });
-
     });
     </script>
     <!--[if lt IE 9]>
-
     <script src="assets/js/respond.js"></script>
-
 <![endif]-->
 </body>
-
 </html>
