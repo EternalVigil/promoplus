@@ -3271,6 +3271,28 @@ ul.blog-tags li {
     margin-top: 15px;
 }
 
+.departmentContacts {
+    padding-bottom: 10px;
+}
+
+.staffCard {
+    line-height: 32px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.staffName {
+    color: #000;
+}
+
+.contactNumber {
+    color: #9B854E; 
+    font-weight: bold;
+    line-height: 32px;
+}
+
 
 /*Coming Soon Page
 ------------------------------------*/
