@@ -1696,6 +1696,13 @@ blockquote {
 
 /*Welcome Block*/
 
+.welcomeMessage {
+    color: #193358; 
+    font-size: 26px; 
+    font-style:italic; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
 .servive-block .p-20 {
     color: #6E6E73;
 }
