@@ -26,7 +26,7 @@ body {
     background-image: url(../img/bak4.jpg);
     background-color: #420001;
     color: #5a5c5d;
-    font: 400 14px/1 'Roboto', sans-serif;
+    font: 400 14px/1 'Lato', sans-serif;
     margin: 20;
     text-align: center;
 }
@@ -77,7 +77,7 @@ h4,
 h5,
 h6 {
     font-weight: normal;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Lato', sans-serif;
     ;
 }
 
@@ -114,7 +114,7 @@ h3.title {
 }
 
 h3.title.cond {
-    font-family: 'Roboto Condensed', Arial, serif;
+    font-family: 'Lato', sans-serif;
     font-weight: 500;
 }
 
@@ -226,7 +226,7 @@ pre {
     -moz-border-radius: 2px;
     -webkit-border-radius: 2px;
     border-radius: 2px;
-    font: 15px/16px 'Roboto Condensed', Arial, sans-serif;
+    font: 15px/16px 'Lato', sans-serif;
     line-height: 18px;
     box-shadow: none;
     padding: 6px 10px;
@@ -481,7 +481,7 @@ blockquote {
 .hero {
     border: none;
     color: #65686D;
-    font: 20px/24px 'Roboto', serif;
+    font: 20px/24px 'Lato', sans-serif;
     font-style: italic;
     margin-bottom: 40px;
     padding-left: 40px;
@@ -503,7 +503,7 @@ blockquote {
     border-left: 2px solid #888888;
     color: #888888;
     background-color: #F9F9F9;
-    font: 16px 'Roboto Condensed', Arial, sans-serif;
+    font: 16px 'Lato', sans-serif;
     font-style: italic;
 }
 
@@ -852,7 +852,7 @@ blockquote {
 
 .quote .text {
     color: #97999D;
-    font: 15px/22px 'Roboto';
+    font: 15px/22px 'Lato', sans-serif;
     font-style: italic;
     margin-left: 66px;
     (;
@@ -867,7 +867,7 @@ blockquote {
 
 .quote .author-name {
     color: #343434;
-    font: 600 13px 'Roboto';
+    font: 600 13px 'Lato', sans-serif;
     margin-top: 16px;
 }
 
@@ -1073,7 +1073,7 @@ blockquote {
 
 .footer h3 {
     color: #fff;
-    font: 23px/34px 'Roboto Condensed', serif;
+    font: 23px/34px 'Lato', sans-serif;
     margin: 0 0 20px;
     padding: 0;
     text-align: left;
@@ -1094,7 +1094,7 @@ blockquote {
     background: none repeat scroll 0 0 #454546;
     border: medium none;
     color: #C2C2C2;
-    font: 16px/18px 'Roboto Condensed', serif;
+    font: 16px/18px 'Lato', sans-serif;
     height: 44px;
     margin-right: 2px;
     padding: 13px;
@@ -1117,11 +1117,11 @@ blockquote {
 }
 
 .footer .btn-danger {
-    font: 500 16px/24px "Roboto", serif;
+    font: 500 16px/24px "Lato", sans-serif;
 }
 
 .footer-copyright {
-    font-family: 'Times New Roman', Times, serif; 
+    font-family: 'Lato', sans-serif; 
     font-style: italic; 
     font-size: 14px;
 }
@@ -1700,7 +1700,7 @@ blockquote {
     color: #193358; 
     font-size: 26px; 
     font-style:italic; 
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .servive-block .p-20 {
@@ -2439,7 +2439,7 @@ blockquote {
     color: #555;
     margin: 5px 0;
     font-size: 14px;
-    font-family: 'Roboto';
+    font-family: 'Lato', sans-serif;
 }
 
 .icon-page li i {
@@ -2462,7 +2462,7 @@ blockquote {
     position: relative;
     border-radius: 3px;
     margin-bottom: 40px;
-    box-shadow: 0 0 5px #eee;
+    box-shadow: 0 0 5px #eee;1
 }
 
 .pricing:hover {
@@ -2498,7 +2498,7 @@ blockquote {
     color: #ffffff;
     padding: 12px 10px;
     font-size: 26px;
-    font-family: 'Roboto';
+    font-family: 'Lato', sans-serif;
     font-weight: 400;
     line-height: 34px;
     background: #474747;
@@ -2536,7 +2536,7 @@ blockquote {
     background: #EBEBEB;
     color: #4d4d4d;
     font-size: 35px;
-    font-family: 'Roboto';
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
     line-height: 40px;
     padding: 15px 10px;
@@ -3556,7 +3556,7 @@ ul.blog-tags li {
 
 .companyTitle {
     color: #450707; 
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Lato', sans-serif;
 }
 
 /*Image Border*/
