@@ -2841,6 +2841,10 @@ blockquote {
     display: block;
     position: absolute;
 }
+.clientLogo {
+    width: 144px;
+    height: 144px;
+}
 
 
 /*Privacy Page
